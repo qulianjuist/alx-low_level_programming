@@ -24,11 +24,11 @@ i++;
 	}
 j = 0;
 while (src[j] != '\0')
-        {
+{
 		dest[i] = src[j];
 		i++;
-j++;
+		j++;
 }
-        dest[i] = '\0';
-        return (dest);
+dest[i] = '\0';
+return (dest);
 }
